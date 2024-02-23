@@ -1,0 +1,25 @@
+
+
+;; Instal Elixir on Mac OS by running `brew update` and `brew install elixir`
+
+
+;; Generate new project
+mix new `project name`
+
+;; How to start an Elixir Repl
+;; iex - interative Elixir shell
+iex -S mix
+;; `recompile` - command to load new code into repl
+
+;; Module
+A collection of different methods/functions
+
+
+;; For loops
+for loops in elixir are called list comprehension
+items <- list
+it is inherently a map operation
+
+
+;;pattern matching
+it is elixir's replacement for variable assignment (destructuring ???)
