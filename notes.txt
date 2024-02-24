@@ -23,3 +23,7 @@ it is inherently a map operation
 
 ;;pattern matching
 it is elixir's replacement for variable assignment (destructuring ???)
+
+
+;;Atoms
+:keyword  (keywords in Clojure)
