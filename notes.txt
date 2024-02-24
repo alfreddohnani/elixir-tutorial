@@ -41,3 +41,25 @@ Run mix test
 to run tests.
 Types of types: doctest and case tests
 
+;; Maps
+colors = %{primary: "red", secondary: "blue"}
+colors.primary  # dot notation
+"red"
+;; Works with pattern matching as well
+ %{secondary: secondary_color} = colors
+secondary_color
+"blue: 
+;; Updating a map
+method 1  Map.put(colors, :primary,  "blue")  -> returns a new map with the updated value
+method 2  %{colors | primary: "blue"} -> can only be used when you're updating an existing property of a map. Cannot be used to add a new property.
+
+
+;; Keyword Lists
+ colors = [{:primary, "red"}, {:secondary, "green"} ]
+[primary: "red", secondary: "green"]
+colors[:primary]
+"red"
+;; or
+colors = [primary: "red", secondary: "green"]
+;;good to know
+[primary: "red", primary: "green"] -> this is allowed with keyword lists
