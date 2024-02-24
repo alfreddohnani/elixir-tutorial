@@ -27,3 +27,10 @@ it is elixir's replacement for variable assignment (destructuring ???)
 
 ;;Atoms
 :keyword  (keywords in Clojure)
+
+;;Installing a package in your project
+1. Go to mix.exs file
+2. Add package as a tuple {:package "~> version} in deps array
+3. Run mix deps.get -> install packages
+4. Write documentation, @moduledoc for module, @doc for functions
+5. Run mix docs
