@@ -34,3 +34,10 @@ it is elixir's replacement for variable assignment (destructuring ???)
 3. Run mix deps.get -> install packages
 4. Write documentation, @moduledoc for module, @doc for functions
 5. Run mix docs
+
+
+;; Testing
+Run mix test
+to run tests.
+Types of types: doctest and case tests
+
